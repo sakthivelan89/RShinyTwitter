@@ -1,6 +1,6 @@
 library(shiny)
 library(xtable)
 
-  if (!require(quantmod)) {
-	stop("This app requires the quantmod package. To install it, run 'install.packages(\"quantmod\")'.\n")
+  if (!require(twitteR)) {
+	stop("This app requires the twitteR package. To install it, run 'install.packages(\"twitteR\")'.\n")
 }
